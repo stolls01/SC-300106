@@ -2,7 +2,7 @@
 This repository will contain the shell scripts used to complete computations via LiSC.
 
 ## Part 1: Montenegro
-### Generating from raw SRA data a read count matrix
+### Pipeline to generate a read count matrix from raw SRA data
 | Task    | Name of script |
 | -------- | ------- |
 | x  | star_align.sh |
