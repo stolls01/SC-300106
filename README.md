@@ -13,6 +13,7 @@ This repository will contain the shell scripts used to complete computations via
 |     x|counts2.sh    |
 |    x |annotation.sh    |
 |  x   |eggnog.sh    |
+|  x   |cellranger.sh    |
 
 
 ## Part 2: Cole
