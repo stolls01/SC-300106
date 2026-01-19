@@ -1,7 +1,8 @@
 ### Single cell course 2025 WS
 This repository will contain the shell scripts used to complete computations via LiSC.
 
-## Part two: Montenegro
+## Part 1: Montenegro
+# Getting from raw SRA data to read count matrix
 | Task    | Name of script |
 | -------- | ------- |
 | x  | star_align.sh |
