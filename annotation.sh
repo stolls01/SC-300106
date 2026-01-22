@@ -10,7 +10,8 @@
 #SBATCH --mail-type=END,FAIL
 #SBATCH --mail-user=a12030007@unet.univie.ac.at
 
-#set working directory and making variables for easier reading
+### ENVIRONMENT
+module load StringTie
 
 wd="/lisc/data/scratch/course/2025w300106/stoll"
 inBam=$wd/results/map/SRR36696742_filtered_trimmed_HldesRot8A_Aligned.sortedByCoord.out.bam
@@ -20,6 +21,3 @@ inBam=$wd/results/map/SRR36696742_filtered_trimmed_HldesRot8A_Aligned.sortedByCo
 #-l will add a prefix, -p to use 4 cores,
 #-j to increase necessary depth to detect a junctin, -g to increase allowed gap between junctions from default. -m
 stringtie $inBam -o $wd/results/stringtie_HldesRot8A.gtf -l HldesRot8A -p 4 -j 10 -g 200 -m 200
-
-
-
