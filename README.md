@@ -2,18 +2,18 @@
 This repository will contain the shell scripts used to complete computations via LiSC.
 
 ## Part 1: Montenegro
-**Scripts used for generation of a read count matrix from raw SRA data**
+
 | Task    | Name of script |
 | -------- | ------- |
-| x  | star_align.sh |
-| Create fastqc report on sequence quality  | fastqc.sh |
-|  |    trim.sh  |
+| Align SRA reads to a reference genome. Output: .bam file  | star_align.sh |
+| For quality control, create fastqc report | fastqc.sh |
+| Trim data to remove low-quality/low-information reads |    trim.sh  |
+| Generate a count table as a proxy for expression levels   x |counts.sh    |
 |   x  |star2.sh   |
-|    x |counts.sh    |
 |     x|counts2.sh    |
 |    x |annotation.sh    |
-|  x   |eggnog.sh    |
+| Functional alignment of reads | eggnog.sh    |
 |  x   |cellranger.sh    |
-
+Table: In order, the scripts used in the generation of a read count matrix from raw SRA data. Object: RNA of vampire bat spleen, reference number SRR36696742.
 
 ## Part 2: Cole
