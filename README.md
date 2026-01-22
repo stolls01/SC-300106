@@ -9,10 +9,10 @@ In order, the scripts used in the generation of a read count matrix from raw SRA
 | Align SRA reads to a reference genome. Output: .bam file  | star_align.sh |
 | For quality control, create fastqc report | fastqc.sh |
 | Trim data to remove low-quality/low-information reads |    trim.sh  |
-| Generate a count table as a proxy for expression levels   x |counts.sh    |
+| Generate a count table as a proxy for expression levels |counts.sh    |
 |   x  |star2.sh   |
 |     x|counts2.sh    |
-|    x |annotation.sh    |
+| If no .gtf file exists: stringtie for transcriptome assembly with evidence based annotation |annotation.sh    |
 | Functional alignment of reads | eggnog.sh    |
 |  x   |cellranger.sh    |
 
