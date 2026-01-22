@@ -10,6 +10,9 @@
 #SBATCH --mail-type=END,FAIL
 #SBATCH --mail-user=a12030007@unet.univie.ac.at
 
+# environment
+module load Subread
+
 
 # this time use the de novo "assembly".gtf we just created using stringtie
 
