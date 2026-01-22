@@ -2,6 +2,7 @@
 This repository will contain the shell scripts used to complete computations via LiSC.
 
 ## Part 1: Montenegro
+In order, the scripts used in the generation of a read count matrix from raw SRA data. Object: RNA of vampire bat spleen, reference number SRR36696742.
 
 | Task    | Name of script |
 | -------- | ------- |
@@ -14,6 +15,7 @@ This repository will contain the shell scripts used to complete computations via
 |    x |annotation.sh    |
 | Functional alignment of reads | eggnog.sh    |
 |  x   |cellranger.sh    |
-Table: In order, the scripts used in the generation of a read count matrix from raw SRA data. Object: RNA of vampire bat spleen, reference number SRR36696742.
+
+
 
 ## Part 2: Cole
