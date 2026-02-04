@@ -16,5 +16,6 @@ module load Subread
 #execution
 # use 4 cpus, using -p for paired ends
 # count 1 read per template, and only primary alignments 
-featureCounts -p --countReadPairs -C -T 4 --primary -a GCF_022682495.2_HLdesRot8A.1_genomic.gtf -o results/map/SRR36696742_feature_count.tsv results/map/SRR36696742_filtered_trimmed_HldesRot8A_Aligned.sortedByCoord.out.bam
+featureCounts -p --countReadPairs -C -T 4 --primary -a GCF_022682495.2_HLdesRot8A.1_genomic.gtf \
+              -o results/map/SRR36696742_feature_count.tsv results/map/SRR36696742_filtered_trimmed_HldesRot8A_Aligned.sortedByCoord.out.bam
 
