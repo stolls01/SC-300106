@@ -11,11 +11,9 @@
 #SBATCH --mail-type=END,FAIL
 #SBATCH --mail-user=a12030007@unet.univie.ac.at
 
-# now the actual code comes without hashtag, the previous is just instructions for lisc segmentation
-
 # set variable of our directory so we need to do less typing
 # also to make the code more readable/comprehensible/less risk of mistyping
-###ENVIRONMENT
+###ENVIRONMENT AND VARIABLES
 module load STAR
 module list
 wDir="/lisc/data/scratch/course/2025w300106/stoll"
@@ -26,9 +24,6 @@ wDir="/lisc/data/scratch/course/2025w300106/stoll"
 # what the prefix of out files will be
 # outSamstrandField: when we have found an intron (gap in read), we want to keep this information!! also allows joining of exons that belong together
 # specify what sort of BAM file we create
-
-
-###EXECUTION
 
 STAR --runThreadN 16 --genomeDir $wDir/HLdesRot8A_STAR \
 	--readFilesIn $wDir/results/trimmomatic/*1P $wDir/results/trimmomatic/*2P \
