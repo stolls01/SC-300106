@@ -24,23 +24,18 @@ od="${wdir}/stoll/results/cellranger"
 id="blastula_12h"
 
 
-#will find all of the fastq_dir directories and use all the sample with the $sample name and align them to $index
+#this tool will find all of the fastq_dir directories and use all the samples with the given $sample name and align them to $index
 
 #cellranger count [OPTIONS] --id $id --create-bam false
 #transcriptome is the index which was already generated
 #force-cells to accept 10000 cells - it's gonna count until it reaches 10000, no matter cell quality
-# by default it will run analysis on dataset, disable it with --nosecondary
+# by default it will try to run analysis on dataset, which we dont want. disable this with --nosecondary
 # use 16 cpus
 # set 64 gigs
 # make output directory in our own subdirectory
 
 
-
-
-### EXECUTIO
-
-
-### EXECUTIONN
+### EXECUTION
 mkdir -p ${od} cd ${od}
 
 cellranger count --transcriptome $index \
