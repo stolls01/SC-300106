@@ -2,7 +2,7 @@
 This repository contains shell scripts utilized for computations with RNAseq data via LiSC.
 
 ## Part 1: Montenegro
-This table shows, in order, the scripts used to generate a read count matrix from raw SRA data. Indicated are task name, name of file, and the module used for the respective computations. Object: RNA from vampire bat spleen, reference number SRR36696742. My directory on LiSC: /lisc/data/scratch/course/2025w300106/stoll
+The following tables show, in order, the scripts used to generate a read count matrix from raw SRA data. Indicated are task name, name of file, and the module used for the respective computations. Object: RNA from vampire bat spleen, reference number SRR36696742. Location of my directory on LiSC: /lisc/data/scratch/course/2025w300106/stoll
 
 | Task    | Name of script | Module used |
 | -------- | ------- | --------|
@@ -20,4 +20,4 @@ In case there is no .gtf file available for a target genome, we can create a de 
 | generate a count table as a proxy for expression levels | counts2.sh | Subread |
 
 ## Part 2: Cole
-Location of R notebook: /lisc/data/scratch/course/2025w300106/stoll
+Location of R notebook: /lisc/data/scratch/course/2025w300106/stoll/seurat/polyp16d_notebook_final.Rmd
