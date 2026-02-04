@@ -1,5 +1,5 @@
 # Single cell course 2025 WS
-This repository will contain the shell scripts used to complete computations via LiSC.
+This repository contains select shell scripts utilized for computations with RNAseq data via LiSC.
 
 ## Part 1: Montenegro
 In order, the scripts used in the generation of a read count matrix from raw SRA data. Object: RNA from vampire bat spleen, reference number SRR36696742.
@@ -20,3 +20,4 @@ In case there is no .gtf file is available for target genome, we create a de nov
 | generate a count table as a proxy for expression levels | counts2.sh |
 
 ## Part 2: Cole
+Location of R notebook: /lisc/data/scratch/course/2025w300106/stoll
